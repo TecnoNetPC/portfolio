@@ -141,3 +141,11 @@ MEDIA_URL = 'media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_HOST = 'c1352256.ferozo.com'
+EMAIL_HOST_USER = "delfin@cortegala.com"
+EMAIL_HOST_PASSWORD = "Inf1n1ty978/"
+EMAIL_USE_SSL = True
