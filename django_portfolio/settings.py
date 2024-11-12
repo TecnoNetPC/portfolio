@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django_assets',
     'bootstrap5',
     'django_recaptcha',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
