@@ -37,10 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',
     'blog',
     'portfolio',
     'contacto',
-    'media'
+    'media',
+    'django_assets',
+    'bootstrap5',
+    'django_recaptcha',
 ]
 
 MIDDLEWARE = [
@@ -149,3 +153,7 @@ EMAIL_HOST = 'c1352256.ferozo.com'
 EMAIL_HOST_USER = "delfin@cortegala.com"
 EMAIL_HOST_PASSWORD = "Inf1n1ty978/"
 EMAIL_USE_SSL = True
+
+
+RECAPTCHA_PUBLIC_KEY = '6LdYY3wqAAAAAIiyhE5xAVLUtd0mPR5dqFjklwbc'
+RECAPTCHA_PRIVATE_KEY = '6LdYY3wqAAAAAALhP3YUjZ2s19svJXCqXhAmus-E'
