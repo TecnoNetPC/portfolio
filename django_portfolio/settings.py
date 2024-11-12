@@ -157,3 +157,5 @@ EMAIL_USE_SSL = True
 
 RECAPTCHA_PUBLIC_KEY = '6LdYY3wqAAAAAIiyhE5xAVLUtd0mPR5dqFjklwbc'
 RECAPTCHA_PRIVATE_KEY = '6LdYY3wqAAAAAALhP3YUjZ2s19svJXCqXhAmus-E'
+
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://portfolio-production-83af.up.railway.app']
