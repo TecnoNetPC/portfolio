@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-t6=epz-z=4*va3)^h*sbo-j9nrygagw8gfs91!uf0x^h3w@7^9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost, https://delfinpalermo.up.railway.app"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
